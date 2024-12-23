@@ -1,0 +1,43 @@
+/* Header container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  background-color: #f4f4f4; /* Light gray background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  font-family: 'Arial', sans-serif;
+}
+
+/* Logo styling */
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  text-decoration: none;
+}
+
+/* Navigation styling */
+.navbar {
+  display: flex;
+  gap: 40px; /* Space between items */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Individual nav item */
+.nav-item a {
+  text-decoration: none;
+  color: #666;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Hover effect */
+.nav-item a:hover {
+  color: #000; /* Black color on hover */
+}
